@@ -1,0 +1,28 @@
+---
+title: Sobre o pi
+author: Fernando Mayer
+date: '2022-06-02'
+slug: sobre-o-pi
+categories: []
+tags: []
+---
+
+O número $\pi$ é `r round(pi, 4)`.
+
+Um gráfico vai aqui
+
+```{r}
+x <- rnorm(100)
+hist(x)
+```
+
+Uma figura do pi.
+
+```{r, out.width='50%', echo=FALSE, fig.align='center'}
+knitr::include_graphics("images/pi.jpg")
+```
+
+
+
+
+
